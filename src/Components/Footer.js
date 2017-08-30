@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         if(this.props.data) {
             var sIcons = this.props.data.social.map(function(icon) {
-                return (<li key={icon.name}><a href={icon.url}><i className={icon.className}></i></a></li>);
+                return (<li key={icon.name}><a target='_blank' href={icon.url}><i className={icon.className}></i></a></li>);
             })
         }
         return (

@@ -12,9 +12,7 @@ class Header extends Component {
                     <a href={network.url}><i className={network.className}></i></a>
                 </li>
             )
-          
-            
-            
+                  
         }
         return (
            

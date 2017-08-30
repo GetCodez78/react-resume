@@ -73,7 +73,6 @@ class Contact extends Component {
                             </fieldset>
                         </form>
 
-
                         <div id="message-warning"> Error boy</div>
 
                         <div id="message-success">
@@ -81,7 +80,6 @@ class Contact extends Component {
                         </div>
 
                     </div>
-
 
                     <aside className="four columns footer-widgets">
 
