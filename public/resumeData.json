@@ -84,6 +84,18 @@
       ],
       "skills":[
         {
+          "name":"ReactJS",
+          "level":"70%"
+        },
+        {
+          "name":"Angular",
+          "level":"65%"
+        },
+        {
+          "name":".NET CORE",
+          "level":"50%"
+        },
+        {
           "name":"Photoshop",
           "level":"60%"
         },

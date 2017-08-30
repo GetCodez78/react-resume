@@ -104,17 +104,17 @@ class Contact extends Component {
                                     <p>
                                         This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                         Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum&nbsp;
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="#home">http://t.co/CGIrdxIlI3</a>
                                     </p>
-                                    <b><a href="#">2 Days Ago</a></b>
+                                    <b><a href="#home">2 Days Ago</a></b>
                                 </li>
                                 <li>
                                     <p>
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                         eaque ipsa quae ab illo inventore veritatis et quasi&nbsp;
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="#home">http://t.co/CGIrdxIlI3</a>
                                     </p>
-                                    <b><a href="#">3 Days Ago</a></b>
+                                    <b><a href="#home">3 Days Ago</a></b>
                                 </li>
                             </ul>
 
