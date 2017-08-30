@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
     render() {
+        if(this.props.data) {
+            var sIcons = this.props.data.social.map(function(icon) {
+                return (<li key={icon.name}><a href={icon.url}><i className={icon.className}></i></a></li>);
+            })
+        }
         return (
            
-
-
                 <footer>
 
                     <div className="row">
@@ -13,13 +16,7 @@ class Footer extends Component {
                         <div className="twelve columns">
 
                             <ul className="social-links">
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i className="fa fa-skype"></i></a></li>
+                               {sIcons}
                             </ul>
 
                             <ul className="copyright">
